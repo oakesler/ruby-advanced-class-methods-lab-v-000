@@ -52,7 +52,7 @@ class Song
   
   def self.new_from_filename(string)
     string.split(-)
-    self.create_by_name(string)
+    #self.create_by_name(string)
  end
  
    
