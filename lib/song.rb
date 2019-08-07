@@ -57,7 +57,7 @@ class Song
     song_name = "#{new_array[1]}".gsub(".mp3",'')
     song = self.new 
     song.name = "#{song_name}"
-    song.artist_name = "#{new_array[0]}"
+    song.artist_name = "#{new_array[0]}".gsub(" ",'')
     song
   end
 end
