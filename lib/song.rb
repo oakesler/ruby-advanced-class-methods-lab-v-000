@@ -1,3 +1,5 @@
+require "pry"
+
 class Song
   attr_accessor :name, :artist_name
   
@@ -51,6 +53,7 @@ class Song
    end
   
   def self.new_from_filename(string)
+    binding.pry
     new_array = string.split("-")
     puts song = "#{new_array[1]}".gsub(".mp3",'')
     #artist = "#{new_array[0]}"
