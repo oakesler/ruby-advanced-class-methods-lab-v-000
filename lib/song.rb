@@ -67,8 +67,9 @@ class Song
     song = self.new 
     song.name = "#{song_name}"
     song.artist_name = "#{new_array[0]}".gsub(" ",'')
+    @@all << song
     song
-    
+  end
 end
     
     
