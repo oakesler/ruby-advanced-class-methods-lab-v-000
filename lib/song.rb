@@ -52,7 +52,7 @@ class Song
   
   def self.new_from_filename(string)
     new_array = string.split("-")
-    puts song = "#{new_array[1}".gsub(.mp3,'')
+    puts song = "#{new_array[1]}".gsub(.mp3,'')
     #artist = "#{new_array[0]}"
     #self.create_by_name(string)
   end
