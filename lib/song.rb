@@ -51,7 +51,9 @@ class Song
    end
   
   def self.new_from_filename(string)
-    string.split("-")
+    new_array = string.split("-")
+    song = "#{new_array[1}"
+    artist = "#{new_array[0]}"
     #self.create_by_name(string)
   end
  end
