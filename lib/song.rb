@@ -53,9 +53,9 @@ class Song
    end
   
   def self.new_from_filename(string)
-    binding.pry
     new_array = string.split("-")
     puts song = "#{new_array[1]}".gsub(".mp3",'')
+    binding.pry
     #artist = "#{new_array[0]}"
     #self.create_by_name(string)
   end
