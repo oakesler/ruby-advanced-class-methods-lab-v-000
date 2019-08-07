@@ -54,10 +54,9 @@ class Song
   
   def self.new_from_filename(string)
     new_array = string.split("- ")
-    puts song = "#{new_array[1]}".gsub(".mp3",'')
+    song = "#{new_array[1]}".gsub(".mp3",'')
     self.new_by_name(song)
   end
-end
 end
     
     
